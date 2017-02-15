@@ -11,20 +11,42 @@ header > nav {
 }
 
 .header-styling {
-  color: white;
+  color: #FFFFFF;
 }
 
 header > img {
   width: 30%;
 }
+
 main > section {
-  border: 3px solid white;
+  border: 1px solid #E0E0E0;
   width: 30%;
   float: left;
   box-sizing: border-box;
 }
 
 main {
-
   padding-left: 17%;
 }
+
+section > section {
+  border-top: 1px solid #E0E0E0;
+}
+
+main > section > header, main > section > section {
+  padding: 10px;
+}
+
+
+/*
+main > section {
+  border-top: 1px solid #E0E0E0;
+}
+
+section > section {
+  border: 1px solid #E0E0E0;
+}
+
+section > header {
+  border: 1px solid #E0E0E0;
+}*/
