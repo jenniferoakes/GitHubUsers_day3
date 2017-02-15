@@ -2,6 +2,14 @@ body > header {
   background-color: #5BC0DE;
 }
 
+header > h1 {
+  display:inline;
+}
+
+header > nav {
+  display:inline;
+}
+
 .header-styling {
   color: white;
 }
