@@ -3,14 +3,6 @@ body > header {
   border-radius: 1em 1em 0 0;
 }
 
-header > h1 {
-  display:inline;
-}
-
-header > nav {
-  display:inline;
-}
-
 .header-styling {
   color: #FFFFFF;
 }
@@ -81,36 +73,3 @@ main > section > section :not(:first-child) {
   border-radius: 50%;
   padding: .2em;
 }
-
-
-
-
-
-/* below section caused img to float but increased height of "david" */
-/*
-img {
-  float: left;
-  margin-right: 10px;
-}
-
-h2 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-p {
-  /*padding-top: 0;
-}*/
-
-/*
-main > section {
-  border-top: 1px solid #E0E0E0;
-}
-
-section > section {
-  border: 1px solid #E0E0E0;
-}
-
-section > header {
-  border: 1px solid #E0E0E0;
-}*/
