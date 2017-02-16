@@ -35,8 +35,40 @@ section > section {
 
 main > section > header, main > section > section {
   padding: 10px;
+  clear: both;
 }
 
+img {
+  float: left;
+}
+
+main > section > header > aside {
+  float: left;
+}
+
+main > section > section :first-child {
+  float: left;
+}
+
+main > section > section :not(:first-child) {
+  float:right;
+}
+
+/* below section caused img to float but increased height of "david" */
+/*
+img {
+  float: left;
+  margin-right: 10px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  /*padding-top: 0;
+}*/
 
 /*
 main > section {
