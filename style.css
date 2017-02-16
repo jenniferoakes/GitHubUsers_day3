@@ -20,13 +20,14 @@ header > img {
 
 main > section {
   border: 1px solid #E0E0E0;
-  width: 30%;
+  width: 300px;
   float: left;
   box-sizing: border-box;
+  margin: 1em;
 }
 
 main {
-  padding-left: 17%;
+  padding-left: 11%;
 }
 
 section > section {
